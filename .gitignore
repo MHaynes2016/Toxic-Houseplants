@@ -1,0 +1,19 @@
+# Uploaded files (not version controlled)
+files/*
+!files/README.md
+
+# Omeka S generated files
+omeka-s/files/
+omeka-s/logs/
+omeka-s/config/database.ini
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

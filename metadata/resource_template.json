@@ -1,0 +1,86 @@
+{
+  "o:label": "Toxic Houseplant",
+  "o:resource_template_property": [
+    {
+      "o:property": {
+        "o:id": "dcterms:title"
+      },
+      "o:alternate_label": "Common Name",
+      "o:alternate_comment": "The common name of the houseplant",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:alternative"
+      },
+      "o:alternate_label": "Scientific Name",
+      "o:alternate_comment": "The scientific (Latin) name of the plant",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:description"
+      },
+      "o:alternate_label": "Description",
+      "o:alternate_comment": "General description of the plant",
+      "data_types": ["literal"],
+      "is_required": false
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:extent"
+      },
+      "o:alternate_label": "Toxicity Level",
+      "o:alternate_comment": "Level of toxicity: low, moderate, or high",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:subject"
+      },
+      "o:alternate_label": "Toxic Principles",
+      "o:alternate_comment": "Chemical compounds causing toxicity (e.g., oxalates, cardiac glycosides, cyasin)",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:coverage"
+      },
+      "o:alternate_label": "Affected Species",
+      "o:alternate_comment": "Species affected by toxicity (cats, dogs, humans)",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:abstract"
+      },
+      "o:alternate_label": "Symptoms",
+      "o:alternate_comment": "Symptoms of toxicity/poisoning",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:bibliographicCitation"
+      },
+      "o:alternate_label": "First Aid",
+      "o:alternate_comment": "First aid recommendations and guidance",
+      "data_types": ["literal"],
+      "is_required": true
+    },
+    {
+      "o:property": {
+        "o:id": "dcterms:source"
+      },
+      "o:alternate_label": "Source Links",
+      "o:alternate_comment": "Credible source URLs for toxicity information",
+      "data_types": ["uri", "literal"],
+      "is_required": true
+    }
+  ]
+}
